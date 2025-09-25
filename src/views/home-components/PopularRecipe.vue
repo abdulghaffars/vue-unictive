@@ -3,7 +3,7 @@ import { onMounted, ref } from "vue";
 import router from "../../router";
 
 let newRecipe = ref<any>(null);
-let recipeTags = ref<any>([]);
+let recipeTags = ref<string[]>([]);
 
 async function getLastRecipe() {
   const res = await fetch(
