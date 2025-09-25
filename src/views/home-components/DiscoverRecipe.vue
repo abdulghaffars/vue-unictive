@@ -25,7 +25,7 @@ onMounted(getDiscoverRecipe);
     <div class="flex gap-4 sm:gap-8 lg:gap-16 flex-wrap justify-center mb-6">
       <ProductCard v-for="recipe in discoverRecipe" :key="recipe.id" :recipe="recipe" />
     </div>
-    <Button @click="router.push('/recipe-list')" type="primary" class="w-full !bg-yellow-300 !text-black !text-lg sm:!text-xl lg:!text-2xl !h-auto">Discover More</Button>
+    <Button @click="router.push('/recipe-list')" type="primary" class="w-full !bg-amber-300 !text-white !text-lg sm:!text-xl lg:!text-2xl !h-auto">Discover More</Button>
   </div>
 </template>
 

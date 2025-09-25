@@ -29,7 +29,7 @@ onMounted(() => {
 <template>
   <div v-if="recipe" class="container mx-auto px-4 py-8">
     <!-- Recipe Header -->
-    <div class="flex flex-col items-center justify-center mb-8">
+    <div class="flex flex-col items-center justify-center">
       <img
         :src="recipe.image"
         alt="Recipe Image"
@@ -139,7 +139,7 @@ onMounted(() => {
         <span
           v-for="tag in recipe.tags"
           :key="tag"
-          class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+          class="!bg-yellow-300 text-black px-3 py-1 rounded-full text-sm"
         >
           {{ tag }}
         </span>
