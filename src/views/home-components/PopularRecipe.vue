@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import router from "../../router";
 
 let newRecipe = ref<any>(null);
 let recipeTags = ref<any>([]);

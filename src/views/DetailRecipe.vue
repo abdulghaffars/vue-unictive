@@ -4,7 +4,6 @@ import {
   DashboardFilled,
   FireOutlined,
   GlobalOutlined,
-  HourglassOutlined,
   ThunderboltOutlined,
   UnorderedListOutlined,
   UserOutlined,
