@@ -45,7 +45,7 @@ onMounted(getLastRecipe);
             {{ newRecipe?.rating }}
           </span>
         </div>
-        <div class="mt-2">
+        <div class="my-2">
           <a-tag v-for="tag in recipeTags" :key="tag" color="blue">{{
             tag
           }}</a-tag>
