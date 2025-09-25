@@ -47,7 +47,7 @@ const handleRecipeList = () => {
     >
       <div>
         <Button type="text" @click="handleHome">Home</Button>
-        <Button type="text" @click="handleAddRecipe">Add recipe</Button>
+        <!-- <Button type="text" @click="handleAddRecipe">Add recipe</Button> -->
         <Button type="text" @click="handleRecipeList">Recipe list</Button>
       </div>
 
